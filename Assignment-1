@@ -1,0 +1,24 @@
+l=[]
+n=int(input('enter n:'))
+for i in range(n):
+    e=int(input())
+    l.append(e)
+min=l[0]
+max=l[0]
+for i in range(1,n):
+    if l[i]<min:
+        min=l[i]
+    if l[i]>max:
+        max=l[i]
+print('maximum value:',max)
+print('minimum value:',min)
+
+OUTPUT:
+enter n:5
+10
+1000
+8888
+-6500
+5000
+maximum value: 8888
+minimum value: -6500
