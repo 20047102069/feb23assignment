@@ -1,0 +1,23 @@
+l=[]
+n=int(input('enter number:'))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+print('reverse of list:')
+for i in range(n-1,-1,-1):
+    print(l[i])
+    
+    OUTPUT:
+    enter number:5
+    20
+    30
+    50
+    60
+    100
+    reverse of list:
+    100
+    60
+    50
+    30
+    20
+                                    
